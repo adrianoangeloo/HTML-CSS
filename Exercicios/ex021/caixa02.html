@@ -1,0 +1,104 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        
+        nav{
+            background-color: rgb(100, 100, 100);
+            box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.382);
+            border-radius: 10px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 20px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 5px;
+            box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.382);
+            border-radius: 10px;
+        } 
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.382);
+        }
+
+        article > aside{
+            background-color: rgb(164, 164, 164);
+            box-shadow: 1px 1px 9px 1px rgba(0, 0, 0, 0.185);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Políticas Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, ab atque. Temporibus distinctio cumque, reprehenderit perferendis delectus in assumenda odit asperiores ad beatae totam, eos minima dolore sequi, doloribus officiis.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Ex-jogador Robinho foi preso agora</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero numquam minima ipsa fuga doloremque, distinctio impedit. Inventore repellat, similique numquam vel nihil, quam accusantium nostrum itaque, necessitatibus nam tempore quae?</p>
+                <aside>
+                    <p>Artigo escrito pelo próprio robinho</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Driola do Drip</p>
+    </footer>
+</body>
+</html>

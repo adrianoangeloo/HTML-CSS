@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+        div:hover {
+            color: red;
+        }
+        .p{
+            color: black;
+        }
+
+        h1#p{
+            text-align: center;
+            padding: 30px;
+            border: 20px solid green;
+            margin: 20px;
+            
+        }
+     
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse no texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>Texto invisivel...</p>
+    </div>
+    <p>Fim do exemplo</p>
+        
+    <a href="pseudoclass.html">
+        <p class="p">volte aqui</p>
+    </a>
+    <p>Eu sou foda!</p>
+
+    <h1 id="p">Texto</h1>
+</body>
+</html>

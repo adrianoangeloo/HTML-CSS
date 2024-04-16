@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*
+    em HTML é id    = em CSS é # (apenas um documento)
+    em GTML é class = em CSS é . (vários documnetos)
+*/
+
+body{
+    background-color: rgb(218, 244, 193);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(54, 111, 0);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(54, 111, 0);
+    color: white;
+}
+
+h2{
+    color: rgb(88, 146, 34);
+}
+
+.basico{
+    color: #807a3c;
+}
+
+.intermediario{
+    color: #3c6880;
+}
+
+.avancado{
+    color: #663c80;
+}
+
+.marcatexto{
+    background-color: #807a3c6d;
+}
